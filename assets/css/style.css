@@ -403,7 +403,7 @@ body {
   .nav {
     display: none; /* padrão escondido */
     position: absolute;
-    top: 72px; /* altura do header */
+    top: 72px;
     left: 0;
     right: 0;
     background: #0b1220;
@@ -413,8 +413,13 @@ body {
     z-index: 100;
   }
 
+  /* Mostra o menu quando está aberto */
+  .nav.is-open {
+    display: block;
+  }
+
   .nav ul {
-    flex-direction: column;  /* muda de linha para coluna */
+    flex-direction: column;
     gap: 12px;
   }
 
@@ -437,3 +442,4 @@ body {
     display: block;
   }
 }
+
