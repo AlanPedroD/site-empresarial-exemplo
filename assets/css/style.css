@@ -443,3 +443,9 @@ body {
   }
 }
 
+@media(max-width: 540px){
+  .footer-inner{
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+}
