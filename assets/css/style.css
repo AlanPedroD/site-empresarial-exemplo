@@ -378,6 +378,13 @@ body {
 .socials i{
   font-size: 16px;
 }
+.socials a {
+  color: var(--muted);
+}
+
+.socials a i:hover{
+  color: #6aa8ff;
+}
 
 
 /* Responsivo */
@@ -415,18 +422,13 @@ body {
 .footer-inner p{
   display: flex;
   flex-direction: column;
-  background-color: red;
   text-align: center;
 }
-
+.socials i{
+  font-size: 18px;
+  color: var(--primary-700);
 }
 
-.socials a {
-  color: var(--muted);
-}
-
-.socials a i:hover{
-  color: #6aa8ff;
 }
 
 /* ================================== */
