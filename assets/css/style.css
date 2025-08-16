@@ -423,6 +423,7 @@ body {
   display: flex;
   flex-direction: column;
   text-align: center;
+  font-size: 11px;
 }
 .socials i{
   font-size: 18px;
