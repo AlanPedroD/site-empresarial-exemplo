@@ -359,6 +359,9 @@ body {
   align-items: center;
   justify-content: space-between;
 }
+.footer-inner p{
+  color: var(--muted);
+}
 .socials {
   display: flex;
   gap: 20px;
